@@ -1,0 +1,534 @@
+#wrap {
+    width: 100%;
+}
+
+/* 상단시작 */
+#header {
+    width: 100%;
+    height: 165px;
+    background-color: ;
+}
+
+#header_in {
+    margin: 0 auto;
+    width: 1000px;
+    height: 119px;
+    background-color: ;
+}
+
+#header_in .logo {
+    float: left;
+    width: 230px;
+    height: 115px;
+    background-color: ;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+#header_in .menu {
+    float: right;
+    width: 770px;
+    height: 115px;
+    background-color: ;
+}
+
+#header_in .inform {
+    margin-top: 10px;
+    margin-left: 490px;
+}
+
+#header_in .inform li {
+    padding-right: 11px;
+    margin-right: 10px;
+    float: left;
+    border-right: 1px solid #555;
+    line-height: 11px;
+}
+
+#header_in .inform li:last-child {
+    border-right: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+#header_in .inform a {
+    font-size: 11px;
+}
+
+#header_in .q_mn {
+    float: left;
+    margin: 25px 0 0 160px;
+}
+
+#header_in .q_mn li {
+    float: left;
+}
+
+#header_in .q_mn li::after {
+    content: "·";
+    font-size: 20px;
+    padding: 0 10px;
+    line-height: 16px;
+}
+
+#header_in .q_mn li:last-child:after {
+    content: "";
+    padding: 0 0px;
+    line-height: 0px;
+}
+
+#header_in .q_mn li a {
+    font-size: 16px;
+}
+
+#header_in .input {
+    margin: 22px 0 0 10px;
+    float: left;
+    width: 260px;
+    height: 25px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+#header_in .input span {
+    float: left;
+    padding-left: 10px;
+    font-size: 10px;
+    line-height: 25px;
+}
+
+#header_in .input a {
+    float: right;
+}
+
+/* header끝 */
+/* nav시작 */
+#nav {
+    width: 100%;
+    height: 46px;
+    background-image: url(../images/nav_area.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+#nav ul {
+    margin: 0 auto;
+    width: 1005px;
+}
+
+#nav ul li {
+    float: left;
+}
+
+/* 상단끝 */
+/* 메인이미지 시작 */
+#main_img {
+    margin: 0 auto;
+    width: 100%;
+    height: 465px;
+    background-image: url(../images/main_img.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+/* 메인이미지 끝 */
+/* 콘텐츠 시작 */
+#contents {
+    margin: 0 auto;
+    width: 100%;
+    background-color: ;
+    padding-top: 45px;
+    padding-bottom: 75px;
+}
+
+#item {
+    margin: 0 auto;
+    width: 1000px;
+    height: 260px;
+    background-color: ;
+}
+
+#item_h {
+    float: left;
+    width: 180px;
+    height: 260px;
+    background-color: ;
+}
+
+#item_h .ttl {
+    padding: 20px 0;
+    font-size: 28px;
+    border-top: 2px solid #555;
+    border-bottom: 2px solid #555;
+}
+
+#item_h .menu {
+    margin-top: 25px;
+}
+
+#item_h .menu li {
+    margin-bottom: 10px;
+}
+
+#item_h .menu li a {
+    font-size: 16px;
+    font-weight: 900;
+    color: #555;
+}
+
+#item_h .menu li:hover a {
+    color: orange;
+    text-decoration: underline;
+}
+
+#item_h .menu li:hover:after {
+    content: " > ";
+    font-size: 12px;
+    line-height: 16px;
+    color: orange;
+    padding-left: 5px;
+    font-weight: 900;
+}
+
+#item_b {
+    float: right;
+    width: 792px;
+    height: 260px;
+    background-color: ;
+}
+
+#item_b li {
+    margin-right: 10px;
+    float: left;
+    width: 188px;
+    height: 260px;
+    border: 1px solid #ccc;
+}
+
+#item_b li:last-child {
+    margin-right: 0px;
+}
+
+#item_b li img {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+#item_b li h5 {
+    padding: 10px 0 0 10px;
+    font-size: 16px;
+}
+
+#item_b li p {
+    padding-top: 5px;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+/* item끝 */
+/* banner시작 */
+#banner {
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 1000px;
+    height: 277px;
+    background-color: ;
+
+}
+
+#banner a {
+    float: left;
+    margin-right: 18px;
+}
+
+#banner a:last-child {
+    margin-right: 0px;
+}
+
+
+/* banner끝 */
+/* movie시작 */
+#movie {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/movie.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+/* #movie a.btn01 {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+#movie a.btn02 {
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+} */
+/* style시작 */
+
+#style {
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 1000px;
+    height: 260px;
+    background-color: blueviolet;
+}
+
+#style_h {
+    float: left;
+    width: 180px;
+    height: 260px;
+    background-color: antiquewhite;
+}
+
+#style_b {
+    float: right;
+    width: 792px;
+    height: 260px;
+    background-color: rgb(145, 96, 33);
+}
+
+#style_b figure {
+    float: left;
+    width: 188px;
+    height: 260px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-right: 13.3px;
+}
+
+#style_b figure img {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+#style_b figcaption {
+    padding: 10px;
+}
+
+#style_b figure:last-child {
+    margin-right: 0px;
+}
+
+#style_b h4 {
+    font-size: 14px;
+}
+
+#style_b p {
+    font-size: 12px;
+}
+
+/* style끝 */
+/* gobtns시작 */
+#go_btns {
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 1000px;
+    height: 480px;
+    background-color: ;
+}
+
+#go_btns .group {
+    float: left;
+    width: 492px;
+    height: 395px;
+}
+
+#go_btns .group a:last-child {
+    display: block;
+    margin-top: 13px;
+    height: 189px;
+}
+
+
+#go_btns>a {
+    float: right;
+}
+
+/* 콘텐츠 끝 */
+/* 하단 시작 */
+#footer {
+    width: 100%;
+}
+
+#footer .group {
+    width: 100%;
+    height: 160px;
+    background-image: url(../images/footer_top_bg.jpg);
+    background-repeat: repeat-x;
+    position: 0 0;
+}
+
+#footer .banner_box {
+    margin: 0 auto;
+    width: 1000px;
+    height: 110px;
+    background-color: ;
+}
+
+#footer .banner_box img {
+    float: left;
+}
+
+
+#footer .notice {
+    margin: 0 auto;
+    width: 1000px;
+    height: 50px;
+    background-color: ;
+}
+
+#footer .notice .ttl,
+#footer .notice .txt {
+    float: left;
+    font-size: 13px;
+    color: #ccc;
+    margin-right: 30px;
+    line-height: 50px;
+}
+
+#footer .notice .date {
+    float: right;
+    font-size: 13px;
+    color: #ccc;
+    line-height: 50px;
+    margin-right: 20px;
+}
+
+
+#f_top {
+    width: 100%;
+    height: 290px;
+
+}
+
+#f_top>div {
+    margin: 0 auto;
+    width: 1000px;
+    height: 290px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+#f_top .mainmn {
+    margin-left: 30px;
+    float: left;
+}
+
+#f_top .mainmn>li {
+    float: left;
+    margin-right: 100px;
+    text-align: center;
+}
+
+#f_top .mainmn>li:last-child {
+    margin-right: 0px;
+}
+
+#f_top .mainmn>li h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#f_top .submn li a {
+    font-size: 16px;
+}
+
+#f_top .submn li {
+    margin-bottom: 5px;
+}
+
+#f_top .callcenter {
+    float: right;
+    width: 240px;
+    height: ;
+}
+
+#f_top .callcenter .ttl {
+    font-size: 30px;
+    border-bottom: 1px solid #555;
+    font-weight: 800;
+    color: #000;
+    text-align: center;
+    padding: 0 0 10px;
+    margin-bottom: 15px;
+
+}
+
+#f_top .callcenter .s_ttl {
+    font-size: 16px;
+    font: weight 800;
+}
+
+#f_top .callcenter .txt {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+#f_top .callcenter .appmn {}
+
+#f_top .callcenter .appmn>li {
+    margin-right: 5px;
+    float: left;
+    width: 110px;
+    height: 70px;
+    border: 1px solid #ccc;
+}
+
+
+
+#f_bottom {
+    width: 100%;
+    height: 150px;
+    background-color: darkolivegreen;
+}
+
+#f_bottom>div {
+    margin: 0 auto;
+    width: 1000px;
+    height: 150px;
+    background-color: rgb(154, 192, 90);
+}
+
+#f_bottom .infomn {}
+
+#f_bottom .infomn li {
+    float: left;
+}
+
+#f_bottom .infomn li:after {
+    display: inline-block;
+    content: '/';
+    font-size: 10px;
+    padding: 0 6px;
+    position: relative;
+    top: -2.5px;
+}
+
+#f_bottom .infomn li:last-child:after {
+    content: '';
+    padding: 0 0;
+}
+
+#f_bottom .infomn li a {
+    font-size: 15px;
+}
+
+
+
+/* 하단 끝 */
